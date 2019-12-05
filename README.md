@@ -11,7 +11,7 @@ gem 'rails-validator
 # Usage
 Call the gem wherever you need to validate some input
 ```
-RailsValidator.validate_file(params[:file].path)
+RailsValidator.validate_file(file_name, size)
 
 RailsValidator.validate_email(email)
 
